@@ -20,6 +20,7 @@ func poop() {
 func main() {
 	for i := 0; i < 10; i++ {
 		fmt.Println("Cool!")
+		fmt.Println("It works.")
 		poop()
 	}
 }
