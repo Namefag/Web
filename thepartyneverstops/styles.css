@@ -1,0 +1,7 @@
+body {
+  display: flex;
+  justify-content: center; /* centers items horizontally */
+  align-items: center;     /* centers items vertically */
+  min-height: 100vh;       /* forces  body to take full screen height */
+  margin: 0;               /* removes default browser spacing because FUCK YOU NIGGERRRRRRRRRR*/
+}
