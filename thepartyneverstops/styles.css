@@ -1,7 +1,7 @@
  html, body {
     height: 100%;
     margin: 0;
-    min-height: 100vh;
+    min-height: 100vh; 
     font-family: sans-serif;
 }
 
@@ -21,10 +21,9 @@ body.light-bg {
   display: flex;            /* container = flexbox */
   justify-content: center;  /* centers horizontally */
   align-items: center;      /* centers vertically */
-  height: 100vh;            /* fill full screen height */
 }
 
-/* mw styling (because i like how it looks) */
+/* mediawiki styling (because i like how it looks) */
 
 .heading, h1, h2, h3, h4, h5, h6 {
     font-weight:bold;
