@@ -10,12 +10,12 @@
   <div style="background: #ededed; border-radius: 3px; padding: 5px;">
     <h2 class="firstHeading">hello</h2>
     this is my safe space
+    <button type="button" id="color-toggle-btn" onclick="document.getElementById('color-toggle-btn').style.color = 'green'">see something cool</button>
   </div>
 </div>
 
 <!-- do nut put this above the div or it will FUCK EVERYTHING UP-->
-<button id="bg-toggle-btn" style="position: absolute; top: 10px; right: 10px;">color</button>
-<script src="buttons.js"></script>
+<button id="bg-toggle-btn" style="position: absolute; top: 10px; right: 10px;" onclick="document.body.classList.toggle('light-bg')">color</button>
 
 </body>
 </html>
