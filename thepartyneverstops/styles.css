@@ -1,7 +1,77 @@
-body {
-  display: flex;
-  justify-content: center; /* centers items horizontally */
-  align-items: center;     /* centers items vertically */
-  min-height: 100vh;       /* forces  body to take full screen height */
-  margin: 0;               /* removes default browser spacing because FUCK YOU NIGGERRRRRRRRRR*/
+ html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+    font-family: sans-serif;
 }
+
+/* bgs */
+
+body {
+    background: linear-gradient(white, #F5F5F5);
+}
+
+body.dark-bg {
+  background: linear-gradient(black, #0a0a0a);
+}
+
+/* containers */
+
+.center-container {
+  display: flex;            /* container = flexbox */
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: 100vh;            /* fill full screen height */
+}
+
+/* mw styling (because i like how it looks) */
+
+.heading, h1, h2, h3, h4, h5, h6 {
+     color:#000;
+    font-weight:bold;
+    margin:0;
+    padding-top:0.5em;
+    padding-bottom:0.17em;
+    display:flow-root;
+    word-break:break-word
+  }
+
+.firstHeading {
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
+    padding-top: 0;
+    display: block;
+}
+
+ .heading1,
+  h1 {
+    font-size:188%;
+    font-family:"Tahoma",sans-serif;
+    font-weight:normal;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #aaa;
+  }
+  .heading2,
+  h2 {
+    font-size:150%;
+    font-family:"Tahoma",sans-serif;
+    font-weight:normal;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #aaa;
+  }
+  .heading3,
+  h3 {
+    font-size:128%
+  }
+  .heading4,
+  h4 {
+    font-size:116%
+  }
+  .heading5,
+  h5 {
+    font-size:108%
+  }
+  .heading6,
+  h6 {
+    font-size:100%
+  }
