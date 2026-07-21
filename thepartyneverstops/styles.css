@@ -1,6 +1,6 @@
  html, body {
     height: 100%;
-    margin: 0;
+    margin: 0; /* overrides default spacing i think */
     min-height: 100vh; /* fixes gradients and shit, stolen from my themes */
     font-family: sans-serif;
 }
