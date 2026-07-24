@@ -15,12 +15,17 @@ body.light-bg {
   background: linear-gradient(white, #f5f5f5);
 }
 
+.mainlight-bg { 
+	background: #ffffff; 
+	border: 2px solid #ededed; 
+  border-radius: 3px;
+}
 /* containers for QoL */
 
 .center-container {
   display: flex;            /* container = flexbox */
   justify-content: center;  /* centers horizontally */
-  align-items: center;      /* centers vertically */
+  align-items: normal;
 }
 
 /* mediawiki styling (because i like how it looks) */
@@ -73,3 +78,24 @@ body.light-bg {
   h6 {
     font-size:100%
   }
+
+   hr {
+    height: 1px;
+    background-color: #aaa;
+    border: 0;
+    margin: 0.2em 0;
+  }
+
+  .headline {
+  font-family: "Tahoma",sans-serif;
+  }
+
+  /* sidebar */
+.right-sidebar {
+  padding: 0.3rem 0.75rem; 
+  width: 12rem; 
+  position: static; top: 1rem; 
+	float: right; 
+	clear: right; 
+	margin: 0 0 0 .25rem;
+}
